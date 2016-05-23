@@ -1,0 +1,75 @@
+/*
+ background:#fff;
+ Subtitle : #999999;
+ post-title:#d76423;
+ blog-title:#666666;
+*/
+@import url(https://fonts.gstatic.com/s/lora/v9/9imnXKme9i4It2hFQOvfvevvDin1pK8aKteLpeZ5c0A.woff) format('woff'));
+
+body{
+	/*margin-top: 50px;*/
+	font-family: 'woff',Helvetica,sans-serif;
+	/*font-size: 16px;*/
+	/*background: url(../img/tile.jpg) top left repeat;*/
+}
+
+html{
+	background-color: #ffffff;
+	font-family: 
+}
+
+body{
+	margin-top: 60px;
+}
+.row{
+	margin-right: 0;
+	margin-left: 0;
+}
+.navbar{
+	height: 30px;
+	font-size: 12px;
+}
+
+/*.navbar-collapse{
+	height: 30px;
+	font-size: 12px;	
+}*/
+.navbar-brand{
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.header-row{
+	display: table;
+	text-align: center;
+	/*border: 1px double;*/
+	border-style: double;
+	width: 100%;
+}
+
+#blog_image{
+	margin: -5px 0;
+}
+
+#blog_title{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: left;
+	color: #666;
+}
+
+.post-header{
+	margin-top: 20px;
+}
+
+.post-title{
+	margin-top: -5px;
+	color: #d76423;
+}
+
+aside{
+	margin-top: 20px;
+	/*border: double;
+	padding: 10px;
+	margin-right: 0px;*/
+}
